@@ -23,7 +23,7 @@ function setup() {
 			document.getElementById('myageprecise').innerHTML = "."+myAge().substring(3, 12);
 		}, 100);
 	function myAge(){
-		var myBirthday = new Date("October 26, 1998 00:00:00");
+		var myBirthday = new Date("August 14, 1998 00:00:00");
 		var now = new Date();
 		var duration = now - myBirthday;
 		var years = duration / 31556900000;
